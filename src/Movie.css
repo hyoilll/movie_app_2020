@@ -1,0 +1,37 @@
+.movie {
+  background-color: rgb(238, 227, 206);
+  width: 600px;
+  height: 100%;
+  display: flex;
+  margin: 40px;
+  padding: 20px;
+  box-shadow: 4px 6px 16px -1px grey;
+}
+
+.movie img {
+  max-width: 150px;
+  width: 100%;
+  height: 100%;
+  max-height: 250px;
+  margin-right: 20px;
+  position: relative;
+  top: -40px;
+}
+
+.movie .movie__year {
+  margin: 10px 0px 7px 0px;
+}
+
+.movie .movie__genres {
+  display: flex;
+}
+
+.movie .movie__genres li {
+  margin-right: 10px;
+}
+
+.movie .movie__year,
+.movie .movie__genres,
+.movie .movie__summary {
+  color: gray;
+}
